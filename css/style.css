@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+/*--RESET--*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #202020;
+}
+
+header h1 {
+    color: #f7f7f7;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Delicious Handrawn', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 80px;
+}
+
+main section h2 {
+    text-align: center;
+    font-size: 5rem;
+    margin-left: 40%;
+    width: 350px;
+    border: 6px solid red;
+    font-style: oblique;
+}
+
+main section p {
+    font-style: unset;
+}
+
+h1 span {
+    color: #f07575;
+}
+
+.navegacionPrincipal {
+    text-align: center;
+    width: 80%;
+    margin: 3rem auto;
+    margin-top: 4rem;
+}
+
+.navegacionPrincipal>ul li {
+    display: inline-block;
+    width: 10%;
+    position: relative;
+    background: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.navegacionPrincipal li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #000000;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.hero h2 {
+    margin-bottom: 2rem;
+    margin-left: 35%;
+    color: #000000;
+    width: 530px;
+    border: 6px solid red;
+    font-style: oblique;
+    font-size: xx-large;
+}
+
+.contenedor h2 {
+    margin-left: 39%;
+    width: 400px;
+    border: 6px solid red;
+    font-style: oblique;
+    font-size: xx-large;
+    margin-bottom: 2rem;
+}
+
+.contenedor p {
+    font-size: xx-large;
+    margin-top: 5rem;
+}
+
+.d-flex {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.hero p {
+    font-size: xx-large;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.main {
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+.footer {
+    background-color: #424141;
+    color: #f3f0f0;
+    text-align: center;
+    margin-top: 15%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mate h2 {
+    text-align: center;
+    font-style: oblique;
+    font-size: 5rem;
+    margin-left: 22%;
+    width: 1130px;
+    margin-bottom: 4%;
+}
+
+.mate p {
+    font-size: xx-large;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+main section form {
+    margin-left: 41%;
+    width: 310px;
+    border: 3px solid rgb(200, 79, 211);
+    font-style: oblique;
+    font-size: xx-large;
+    margin-top: 5rem;
+}
+
+main section form div {
+
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.orden {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.orden img {
+    width: 33.33%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.orden p{
+    color: #c94916;
+    text-shadow: 5px 4px 10px black;
+    margin-top: 2rem;
+    margin-left: 30%;
+}
+
+.videoInfo p{
+    color: #c94916;
+    text-shadow: 5px 4px 10px black;
+    margin-left: 26%;
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 50px;
+}
+.productos h2 {
+    margin-bottom: 5rem;
+}
+
+.contenedor-imagenes {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    align-items:end
+}
+
+.contenedor-imagenes img {
+    width: 150px;
+    margin:  95px;
+}
+
+.imagenUno{
+    overflow: hidden;
+    border-radius: 60px;
+}
+
+.imagenDos{
+    overflow: hidden;
+    box-shadow: #000000;
+    border-radius: 60px;
+}
+
+.imagenTres{
+    overflow: hidden;
+    box-shadow: #000000;
+    border-radius: 60px;
+}
+
+.imagenCuatro{
+    overflow: hidden;
+    box-shadow: #000000;
+    border-radius: 60px;
+}
+
+.imagenCinco{
+    overflow: hidden;
+    box-shadow: #000000;
+    border-radius: 60px;
+}
+
+.imagenSeis{
+    overflow: hidden;
+    box-shadow: #000000;
+    border-radius: 60px;
+}
+
+.productos p {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: xx-large;
+}
+
+.ven {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    text-align: left;
+    font-family: Arial Black;
+    font-weight: bold;
+    font-size: 30px;
+    color: #3065b4;
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+.mapa {
+    margin-top: 5rem;
+}
+
+.videito {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 70%;
+    height: 50rem;
+}
+
+.boton {
+    background-color: #4CAF50;
+    border-radius: 20px;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 9px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #d8401a;
+}
+
+.boton:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+}
+
+.botonFinal {
+    cursor: pointer;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    width: 150px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: larger;
+    margin-top: 2rem;
+    background-color: #5239c04d;
+    color: #000000;
+    font-style: unset;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.botonFinal:hover{
+    background-color: #c84fd3;
+}
+
+/*-----MEDIA QUERIES-----*/
+
+@media (min-width: 1024) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #c84fd3;
+    }
+}
+
+@media (max-width: 768px) {
+    .d-flex {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
