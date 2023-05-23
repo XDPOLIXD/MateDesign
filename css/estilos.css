@@ -3,31 +3,103 @@
   margin: 0;
   padding: 0; }
 
-header {
-  background-color: #202020; }
-  header h1 {
+/*--- PALETA DE COLORES---*/
+/*--- FOOTER---*/
+.header {
+  background-color: black; }
+  .header h1 {
     color: #f7f7f7;
     font-style: italic;
     font-weight: 600;
     font-family: 'Delicious Handrawn', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-size: 80px; }
-    header h1 span {
+    .header h1 span {
       color: #f07575; }
-  header .navegacionPrincipal {
+  .header .navegacionPrincipal {
     text-align: center;
     width: 80%;
     margin: 3rem auto;
     margin-top: 4rem; }
-    header .navegacionPrincipal ul li {
+    .header .navegacionPrincipal ul li {
       display: inline-block;
       width: 10%;
       position: relative;
       background: #ffffff;
       margin-bottom: 2rem; }
-      header .navegacionPrincipal ul li a {
+      .header .navegacionPrincipal ul li a {
         display: block;
         text-decoration: none;
         font-size: 1rem;
         line-height: 1rem;
         color: #000000; }
+
+.hero {
+  text-align: center;
+  margin-bottom: 10rem; }
+  .hero h2 {
+    color: #000000;
+    width: 50%;
+    border: 6px solid red;
+    font-style: oblique;
+    font-size: xx-large;
+    margin: 0 auto 2rem auto; }
+  .hero p {
+    font-size: xx-large;
+    margin-top: 3rem;
+    margin-bottom: 3rem; }
+  .hero .boton {
+    background-color: #4CAF50;
+    border-radius: 20px;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 9px;
+    cursor: pointer; }
+    .hero .boton:hover {
+      background-color: #d8401a; }
+    .hero .boton:active {
+      background-color: #3e8e41;
+      transform: translateY(4px); }
+
+.main {
+  text-align: center;
+  margin-bottom: 2rem; }
+  .main .contenedor h2 {
+    margin-left: 39%;
+    width: 400px;
+    border: 6px solid red;
+    font-style: oblique;
+    font-size: xx-large;
+    margin-bottom: 2rem; }
+  .main .contenedor p {
+    font-size: xx-large;
+    margin-top: 5rem; }
+
+.footer {
+  background-color: black;
+  color: #f3f0f0;
+  text-align: center;
+  margin-top: 15%;
+  align-items: center;
+  flex-wrap: wrap; }
+
+/*-----MEDIA QUERIES-----*/
+@media (min-width: 1024) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #c84fd3; } }
+
+@media (max-width: 768px) {
+  .d-flex {
+    font-size: 16px;
+    line-height: 1.5; } }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; } }
