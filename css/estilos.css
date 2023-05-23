@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  background-color: #202020; }
+  header h1 {
+    color: #f7f7f7;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Delicious Handrawn', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 80px; }
+    header h1 span {
+      color: #f07575; }
+  header .navegacionPrincipal {
+    text-align: center;
+    width: 80%;
+    margin: 3rem auto;
+    margin-top: 4rem; }
+    header .navegacionPrincipal ul li {
+      display: inline-block;
+      width: 10%;
+      position: relative;
+      background: #ffffff;
+      margin-bottom: 2rem; }
+      header .navegacionPrincipal ul li a {
+        display: block;
+        text-decoration: none;
+        font-size: 1rem;
+        line-height: 1rem;
+        color: #000000; }
