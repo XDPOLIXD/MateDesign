@@ -189,6 +189,7 @@ main section form div {
 
 .imagenUno{
     overflow: hidden;
+    box-shadow: #000000;
     border-radius: 60px;
 }
 
@@ -306,8 +307,8 @@ main section form div {
 
 @media (max-width: 768px) {
     .d-flex {
-        font-size: 16px;
-        line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.5;
     }
 }
 

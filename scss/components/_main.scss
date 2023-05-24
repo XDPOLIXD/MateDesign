@@ -16,3 +16,161 @@
         }
     }
 }
+
+main{
+    .productos{
+        h2{
+            margin-bottom: 5rem;
+        }
+        p{
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: xx-large;
+        }
+        .orden{
+            display: flex;
+            flex-wrap: wrap;
+            img{
+                width: 33.33%;
+                height: auto;
+                box-sizing: border-box;
+                padding: 10px;
+            }
+            .imagenUno{
+                overflow: hidden;
+                box-shadow: #000000;
+                border-radius: 60px;
+            }
+            .imagenDos{
+                overflow: hidden;
+                box-shadow: #000000;
+                border-radius: 60px;
+            }
+            .imagenTres{
+                overflow: hidden;
+                box-shadow: #000000;
+                border-radius: 60px;
+            }
+            .imagenCuatro{
+                overflow: hidden;
+                box-shadow: #000000;
+                border-radius: 60px;
+            }
+            .imagenCinco{
+                overflow: hidden;
+                box-shadow: #000000;
+                border-radius: 60px;
+            }
+            .imagenSeis{
+                overflow: hidden;
+                box-shadow: #000000;
+                border-radius: 60px;
+            }
+            p{
+                color: #c94916;
+                text-shadow: 5px 4px 10px black;
+                margin-top: 2rem;
+                margin-left: 30%;
+            }
+        }
+        .videito{
+            display: block;
+            margin: 0 auto;
+            margin-top: 5rem;
+            width: 70%;
+            height: 50rem;
+        }
+    }
+    .videoInfo{
+        p{
+            color: #c94916;
+            text-shadow: 5px 4px 10px black;
+            margin-left: 26%;
+            font-size: 24px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            padding: 50px;
+        }
+    }
+    section{
+        h2{
+            text-align: center;
+            font-size: 5rem;
+            margin-left: 40%;
+            width: 420px;
+            border: 6px solid red;
+            font-style: oblique;
+        }
+        p{
+            font-style: unset;
+        }
+        form{
+            margin-left: 43%;
+            width: 310px;
+            border: 3px solid rgb(200, 79, 211);
+            font-style: oblique;
+            font-size: large;
+            margin-top: 5rem;
+            div{
+                text-align: center;
+                margin-top: 2rem;
+            }
+        }
+    }
+    .mate{
+        h2{
+            text-align: center;
+            font-style: oblique;
+            font-size: 5rem;
+            margin-left: 22%;
+            width: 1130px;
+            margin-bottom: 4%;
+        }
+        p{
+            font-size: xx-large;
+            margin-top: 10rem;
+            text-align: center;
+        }
+    }
+    .contenedor-imagenes{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        justify-content: center;
+        align-items: end;
+        img{
+            width: 150px;
+            margin:  95px;
+        }
+    }
+    .ven{
+        margin-top: 5rem;
+        margin-left: 5rem;
+        text-align: left;
+        font-family: Arial Black;
+        font-weight: bold;
+        font-size: 30px;
+        color: #3065b4;
+        text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+    }
+    .mapa{
+        margin-top: 5rem;
+    }
+    .botonFinal{
+        cursor: pointer;
+        margin-bottom: 2rem;
+        margin-left: 5rem;
+        width: 150px;
+        border: 2px solid rgb(0, 0, 0);
+        font-size: larger;
+        margin-top: 2rem;
+        background-color: #5239c04d;
+        color: #000000;
+        font-style: unset;
+        text-decoration: none;
+        border-radius: 10px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        &:hover{
+            background-color: #c84fd3;
+        }
+    }
+}
+
