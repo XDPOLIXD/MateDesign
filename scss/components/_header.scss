@@ -23,12 +23,17 @@
                 position: relative;
                 background: #ffffff;
                 margin-bottom: 2rem;
+                border-radius: 10px;
+                &:hover{
+                    background-color: rgb(223, 84, 84);
+                }
                 a{
                     display: block;
                     text-decoration: none;
                     font-size: 1rem;
                     line-height: 1rem;
                     color: #000000;
+                    padding: 5px;
                 }
             }
         }

@@ -1,11 +1,10 @@
 /*-----MEDIA QUERIES-----*/
 
-@media (min-width: 1024) {
+@media (max-width: 1024px) {
     header {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        background-color: #c84fd3;
     }
 }
 
